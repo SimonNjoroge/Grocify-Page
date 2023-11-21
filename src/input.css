@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*
+{
+    user-select: none;
+    font-family: abel;
+}
+nav a
+{
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+.ifike-mwisho
+{
+    position: absolute;
+    right: 7rem;
+}
+::-webkit-scrollbar
+{
+    background-color: #182646;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #fde047;
+    border-radius: 20px;
+}
